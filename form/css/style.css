@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+.textarea {
+  margin-bottom: 20px;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.status {
+  color: red;
+}
+
+button:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}

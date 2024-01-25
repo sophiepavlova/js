@@ -1,0 +1,5 @@
+:root {
+    --transition: all .3s ease-in-out;
+    --color-teal: rgb(19, 122, 131);
+    --headers-color: #c4f0fb;
+}

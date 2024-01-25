@@ -1,0 +1,13 @@
+:root {
+  --transition: all 0.3s ease-in-out;
+  --color-accent: #2196f3;
+  --color-headings: #212121;
+  --color-bodyText: #757575;
+  --headers-color: #c4f0fb;
+  --button-hover: #188ce8; /*my own idea*/
+  --icon-default: #afb1b8;
+  --transition-background: 0.5s background-color ease-in-out;
+  --transition-all: 0.5s all ease-in-out;
+  --transition-all-faster: 0.3s all ease-in-out;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

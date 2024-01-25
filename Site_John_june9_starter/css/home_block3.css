@@ -1,0 +1,70 @@
+/*Block 3 starts here*/
+.shapka__text{
+	font-family: 'Heebo', sans-serif;
+	text-align: left;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height:69px;
+}
+/* Cards "Featured" vertically stacked*/
+
+.featured-container{
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	/* background-color: blueviolet; */
+}
+.card-featured-work_cardless{
+	display:none !important;
+}
+.card-featured-work{
+	display:flex;
+	min-height:206px;
+	gap:20px;
+	/* background-color: #FF6464; */
+	border-bottom: 1px solid #E0E0E0;
+	margin-bottom: 32px;
+	
+}
+.card-featured-work__image{
+	width: 246px;
+	height: 180px;
+	border-radius: 6px;
+}
+.card-right{
+	width:70%;
+}
+.card-right__heading{
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 44px;
+	margin-bottom: 12px;
+	color: #21243D;
+}
+.card-right__round-date{
+	display: inline-block;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 26px;
+	color:#FFFFFF;
+	background-color: #142850;
+	padding: 0 10px;
+	border-radius: 16px;
+	margin-right: 26px;
+}
+.card-right__topic{
+	display: inline-block;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 29px;
+	color: #8695A4;
+}
+.card-right__text{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	/* padding-right: 84px; */
+	margin-top: 22px;
+	padding-bottom: 23px;
+}

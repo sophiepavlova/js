@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <titleForm non auto - revision</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form method="get">
+      <label for="name" >Введите имя</label>
+      <!-- <input type="text" name="name" id="name" class="checked"> -->
+      <input type="text" name="name" id="name" class="checked"
+      title="Разрешено использовать только пробелы, русские и латинские буквы, не менее 8"
+      pattern="^[A-Za-zА-Яа-яЁё\s]{8,}">
+
+      <label for="tel">Введите телефон</label>
+      <input type="tel" name="tel" id="tel" class="checked input-tel" >
+
+      <label for="email">Введите email</label>
+      <input type="email" name="email" id="email" class="checked">
+      <!-- <input type="email" name="email" id="email" class="checked"  pattern="/\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b/gi"> -->
+
+      <label for="password">Введите пароль</label>
+      <input type="password" name="password" id="password" class="checked pas-val" title="Разрешено использовать русские и латинские буквы, цифры, дефисы и подчеркивания, не менее 8" pattern="^[A-Za-zа-яА-Я-_\d]{8,}">
+
+      <label for="confirm">Подтвердите пароль</label>
+      <input type="password" name="confirm" id="confirm" class="checked pas-val"  title="Разрешено использовать русские и латинские буквы, цифры, дефисы и подчеркивания, не менее 8" pattern="^[A-Za-zа-яА-Я-_\d]{8,}">
+
+      <div id="message"></div>
+      <input type="submit" value="Отправить" class="submit">
+    </form>
+    <script src="libs/inputmask.min.js"></script>
+    <script src="custom.js"></script>
+  </body>
+</html>

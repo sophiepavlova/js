@@ -1,0 +1,62 @@
+/*Work Detalis page*/
+.page-title_thirtyfour {
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 50px;
+	color: #21243D;
+	display: inline-block;
+	max-width: 506px;
+	margin-left: 0;
+	/* margin-bottom: 30px; */
+}
+
+.card-right__round-date_det {
+	background-color: #FF7C7C;
+	display: inline-block;
+	margin-right: 17px;
+}
+
+.subj {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 29px;
+	color: #21243D;
+}
+
+.length {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	max-width: 681px;
+	margin: 28px 0 46px 0;
+}
+
+#after_pic {
+	margin-top: 62px;
+}
+
+h5 {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 35px;
+	color: #21243D;
+}
+
+.detail_pics {
+	max-width: 100%;
+}
+
+.detail_pics.three {
+	margin: 27px 0;
+}
+
+.cardlessM {
+	display: none;
+}
+
+.footer {
+	margin-top: 24px;
+}

@@ -1,0 +1,23 @@
+.gallery{
+	width: 860px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.gallery .fhotos{
+	position: relative;
+	height: 640px;
+}
+
+
+.gallery .fhotos img{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.gallery .fhotos img.showed{
+	opacity: 1;
+}

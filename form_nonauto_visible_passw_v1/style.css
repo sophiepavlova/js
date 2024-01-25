@@ -1,0 +1,60 @@
+body {
+  line-height: 130%;
+}
+form {
+  margin: 50px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  display: inline-block;
+}
+.checked {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  max-width: 400px;
+  height: 40px;
+  /* border: 1px solid black; */
+}
+
+.submit {
+  background-color: rgb(11, 100, 127);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 10px;
+  max-width: 200px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.error {
+  border: 1px solid red;
+}
+#message {
+  color: red;
+}
+.mess {
+  margin-top: -6px;
+  color: rgb(180, 10, 10);
+  padding-bottom: 12px;
+}
+.hidden {
+  display: none;
+}
+
+input {
+  padding: 0 10px;
+  width: 300px;
+  /* border: none; */
+}
+
+form i {
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+/* input:focus {
+  outline: none; /*Removes the border when the input is clicked
+
+} */

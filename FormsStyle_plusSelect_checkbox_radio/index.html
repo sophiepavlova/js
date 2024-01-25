@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select_Checkbox_Radio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="block">
+        <h3>1. Input [type="text"]</h3>
+        <div class="form-group">
+          <input type="text" class="form-control i-1" />
+          <button class="btn btn-primary btn1">Submit</button>
+          <div class="out out-1"></div>
+        </div>
+      </div>
+      <div class="block">
+        <h3>2. Input [type="number"]</h3>
+        <div class="form-group">
+          <input type="number" class="form-control i-2" />
+          <button class="btn btn-primary btn2">Submit</button>
+          <div class="out out-2"></div>
+        </div>
+      </div>
+      <div class="block">
+        <h3>3. Input [type="color"]</h3>
+        <div class="form-group">
+          <input type="color" class="form-control i-3" />
+          <button class="btn btn-primary btn3">Submit</button>
+          <div class="out out-3"></div>
+        </div>
+      </div>
+      <div class="block">
+        <h3>4. Input [type=date"]</h3>
+        <div class="form-group">
+          <input type="date" class="form-control i-4" />
+          <button class="btn btn-primary btn4">Submit</button>
+          <div class="out out-4"></div>
+        </div>
+      </div>
+      <div class="block">
+        <h3>5. Input [type=range"]</h3>
+        <div class="form-group">
+          <input
+            type="range"
+            class="form-control i-5"
+            step="10"
+            min="0"
+            max="100"
+          />
+          <div class="out out-5"></div>
+        </div>
+      </div>
+      <div class="block">
+        <h3>6. Input[type="checkbox"]</h3>
+        <div class="form-group">
+          <input
+            type="checkbox"
+            class="form-control i-6 checkb"
+            value="YAY"
+            checked="true"
+          />
+          <div class="check_imitation"></div>
+          <button class="btn btn-primary btn6">Submit</button>
+          <div class="out out-6"></div>
+        </div>
+      </div>
+      <div class="block">
+        <h3>7. Input[type="radio"]</h3>
+        <div class="form-group">
+          <div class="flexbox">
+            <input
+              type="radio"
+              id="r-1"
+              class="form-control i-7 rad"
+              name="group-radio"
+              value="100$"
+              checked
+            />
+            <div class="radio__radio"></div>
+            <label for="r-1">Option 1</label>
+          </div>
+          <div class="flexbox">
+            <input
+              type="radio"
+              id="r-2"
+              class="form-control i-7 rad"
+              name="group-radio"
+              value="200$"
+            />
+            <div class="radio__radio"></div>
+            <label for="r-2">Option 2</label>
+          </div>
+          <div class="flexbox">
+            <input
+              type="radio"
+              id="r-3"
+              class="form-control i-7 rad"
+              name="group-radio"
+              value="500$"
+            />
+            <div class="radio__radio"></div>
+            <label for="r-3">Option 3</label>
+          </div>
+          <button class="btn btn-primary btn7">Submit</button>
+          <div class="out out-7"></div>
+        </div>
+
+<!-- Radio buttons for customisation -->
+<h1>Custom Radio Buttons</h1>
+<h3>What is your favourite country?</h3>
+<div class="radio-container">
+  
+  <label for="myRadioId1" class="radio">
+    <input
+      type="radio"
+      name="allRadios"
+      id="myRadioId1"
+      class="radio__input"
+      value=""
+    />
+    <div class="radio__radio"></div>
+    <!-- for the circles instead of the default circles of radio -->
+    Italy
+  </label>
+
+  <label for="myRadioId2" class="radio">
+    <input
+      type="radio"
+      name="allRadios"
+      id="myRadioId2"
+      class="radio__input"
+      value=""
+    />
+    <div class="radio__radio"></div>
+    <!-- for the circles instead of the default circles of radio -->
+    France
+  </label>
+
+  <label for="myRadioId3" class="radio">
+    <input
+      type="radio"
+      name="allRadios"
+      id="myRadioId3"
+      class="radio__input"
+      value=""
+    />
+    <div class="radio__radio"></div>
+    <!-- for the circles instead of the default circles of radio -->
+    Canada
+  </label>
+
+</div>
+
+        <div class="block">
+
+          <!-- HERE RADIO BUTTONS INSTEAD OF SELECT -->
+          <h3>8. Select dropdown customized through radio buttons</h3>
+          <div class="select-container">
+            <div class="select-group">
+              <label class="group-subheader" for="btn-dr">What is your favourite food?</label>
+              <button id="btn-dr" class="btn-dropdown">
+                <span id="select-label">-- please, select one --</span>
+                <div class="arrow"></div>
+              </button>
+
+              <div class="dropdown hidden">
+                <label class="select-item" for="select-pasta"
+                  >Pasta with mozzarella</label
+                >
+                <input
+                  class="option"
+                  id="select-pasta"
+                  type="radio"
+                  name="food"
+                  value="pasta"
+                />
+
+                <label class="select-item" for="select-sushi"
+                  >Salmon sushi rolls</label
+                >
+                <input
+                  class="option"
+                  id="select-sushi"
+                  type="radio"
+                  name="food"
+                  value="sushi"
+                />
+
+                <label class="select-item" for="select-cake"
+                  >Chocolate cake</label
+                >
+                <input
+                  class="option"
+                  id="select-cake"
+                  type="radio"
+                  name="food"
+                  value="cake"
+                />
+
+                <label class="select-item" for="select-ice-cream"
+                  >Strawberry ice-cream</label
+                >
+                <input
+                  class="option"
+                  id="select-ice-cream"
+                  type="radio"
+                  name="food"
+                  value="ice-cream"
+                />
+
+                <label class="select-item" for="select-pizza">Pizza don Carleone</label>
+                <input class="option" id="select-pizza" type="radio" name="food" value="pizza">
+
+              </div>
+            </div>
+
+          </div>
+          <!-- <h3>8. Select</h3>
+          <div class="select-container">
+            <select class="sel">
+              <option value="a">One</option>
+              <option value="b">Two</option>
+              <option value="c">Three</option>
+              <option value="d">Four</option>
+              <option value="d">Five</option>
+            </select>
+            <span class="custom-arrow"></span>
+            <button class="btn btn-primary btn8">Submit</button>
+            <div class="out out-8"></div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <script src="custom2.js"></script>
+  </body>
+</html>

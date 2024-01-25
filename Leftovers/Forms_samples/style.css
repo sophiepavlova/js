@@ -1,0 +1,36 @@
+.btn {
+  margin: 10px 0;
+}
+.container {
+  margin-top: 50px;
+  max-width: 500px;
+}
+.block {
+  margin-bottom: 50px;
+}
+.flex-box {
+  display: flex;
+  align-items: center;
+}
+
+.flex-box .form-control {
+  width: auto;
+}
+
+.flex-box label {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+textarea {
+  width: 300px;
+  height: 200px;
+}
+
+.form {
+  padding-bottom: 200px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+}

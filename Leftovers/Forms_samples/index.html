@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="block">
+          <h3>1. Input[type="text"]</h3>
+          <div class="form-group">
+              <input type="text" class="form-control i-1">
+              <button class="btn btn-primary btn1">Submit</button>
+              <div class="out out-1"></div>
+          </div>
+      </div>
+      <div class="block">
+        <h3>2. Input[type="number"]</h3>
+        <div class="form-group">
+            <input type="number" class="form-control i-2">
+            <button class="btn btn-primary btn2">Submit</button>
+            <div class="out out-2"></div>
+        </div>
+    </div>
+    <div class="block">
+      <h3>3. Input[type="color"]</h3>
+      <div class="form-group">
+          <input type="color" class="form-control i-3">
+          <button class="btn btn-primary btn3">Submit</button>
+          <div class="out out-3"></div>
+      </div>
+  </div>
+  <div class="block">
+    <h3>4. Input[type="date"]</h3>
+    <div class="form-group">
+        <input type="date" class="form-control i-4">
+        <button class="btn btn-primary btn4">Submit</button>
+        <div class="out out-4"></div>
+    </div>
+</div>
+<div class="block">
+  <h3>5. Input[type="range"]</h3>
+  <div class="form-group">
+      <input type="range" class="form-control i-5" step="10" min="0" max="100">
+      <!-- <button class="btn btn-primary btn5">Submit</button> -->
+      <div class="out out-5"></div>
+  </div>
+</div>
+<div class="block">
+  <h3>6. Input[type="checkbox"]</h3>
+  <div class="form-group">
+      <input type="checkbox" class="form-control i-6" checked>
+      <button class="btn btn-primary btn6">Submit</button>
+      <div class="out out-6"></div>
+  </div>
+</div>
+<div class="block">
+  <h3>7. Input[type="radio"]</h3>
+  <div class="form-group">
+    <div class="flexbox">
+      <input type="radio" class="form-control i-7" id="r-1" name="group-radio" value="100" checked></div>
+      <label for="r-1">Option 1</label>
+  </div>
+  <div class="flexbox">
+    <input type="radio" class="form-control i-7" id="r-2" name="group-radio" value="200" ></div>
+    <label for="r-2">Option 2</label>
+</div>
+<div class="flexbox">
+  <input type="radio" class="form-control i-7" id="r-3" name="group-radio" value="300" ></div>
+  <label for="r-3">Option 3</label>
+</div>
+  <button class="btn btn-primary btn7">Submit</button>
+  <div class="out out-7"></div>
+</div>
+<div class="block">
+  <h3>8. Select</h3>
+  <div class="form-group">
+    <select class="sel">
+      <option value="a">test1</option>
+      <option value="b">test2</option>
+      <option value="c">test3</option>
+      <option value="d">test4</option>
+      <option value="e">test5</option>
+    </select>
+     
+      <button class="btn btn-primary btn8">Submit</button>
+      <div class="out out-8"></div>
+  </div>
+</div>
+  
+    <script src="custom.js"></script>
+  </body>
+</html>

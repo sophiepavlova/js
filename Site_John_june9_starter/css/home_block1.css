@@ -1,0 +1,66 @@
+/*Block 1 styling*/
+.about {
+	display: flex;
+	padding-top: 71px;
+	padding-bottom: 71px;
+	/* height: 539px; */
+	/* background-color: goldenrod; */
+	align-items: center;
+	gap: 10px;
+}
+
+.introduction {
+	width: 60%;
+}
+
+.portrait {
+	width: 40%;
+	/* background-color: rgb(235, 100, 23); */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-title {
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 60px;
+	color: #21243D;
+	padding-bottom: 25px;
+}
+
+/*text with shadow below*/
+.introduction__info {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #21243D;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	padding-bottom: 32px;
+}
+
+.introduction__button {
+	background-color: #FF6464;
+	padding: 10px 18px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29px;
+	color: #FFFFFF;
+	border: 2px solid transparent;
+	border-radius: 2px;
+	transition: var(--transition);
+
+}
+
+.introduction__button:hover {
+	background-color: #fff;
+	color: #FF6464;
+	border-color: #FF6464;
+}
+
+.portrait__avatar {
+	width: 243px;
+	height: 243px;
+	border-radius: 50%;
+	box-shadow: -5px 13px #EDF7FA;
+}

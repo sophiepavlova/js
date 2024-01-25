@@ -1,0 +1,74 @@
+/* Styling for block2 "Recent Posts"*/
+.posts{
+	background-color: #EDF7FA;
+	/* width: 100vw; */
+}
+.shapka{
+	min-height: 69px;
+	/* background-color: #a34f5a; */
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.shapka__text{
+	font-weight: 400;
+	font-size: 22px;
+	color:#000000;
+}
+.shapka__link{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #00A8CC;
+}
+.cards-container{
+	display:flex;
+	/* justify-content: space-between; */
+	/* min-height: 327px; */
+    padding-bottom: 32px;
+	gap:20px;
+}
+.card-post{
+	max-width: 418px;
+	min-height: 295px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+	border-radius: 4px;
+	/* box-sizing: border-box; */
+	padding: 20px 24px;
+}
+.card-post__heading{
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 38px;
+	color: #21243D;
+	margin-bottom:26px;
+}
+.card-post__date-sub{
+	display: flex;
+	justify-content: flex-start;
+	gap:30px;
+	margin-bottom:19px;
+}
+
+.card-post__separator{
+	width:1px;
+	height:21px;
+	background-color: #21243D;
+}
+
+.card-post__text{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: #21243D;
+}
+.card-post__text-body{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	padding-right:27px;
+}
+#seco{
+	margin-bottom: 28px;
+}

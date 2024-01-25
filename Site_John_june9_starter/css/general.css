@@ -1,0 +1,35 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    margin: 0 auto;
+    /* max-width:1152px; */
+}
+
+/* .mobile-header {
+    transform: translateX(150vw);
+} */
+
+.wrapper {
+    max-width: 858px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+    fill: #21243D;
+}
+
+svg:hover {
+    fill: #FF6464;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #21243D;
+}
+
+/* for dark theme */

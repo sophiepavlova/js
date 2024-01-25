@@ -1,0 +1,12 @@
+#example {
+  display: block;
+  margin: 200px auto;
+  width: 300px;
+  height: 300px;
+}
+.path1 {
+  fill: blueviolet;
+}
+.path_stiches {
+  fill: rgb(226, 70, 43);
+}

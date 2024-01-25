@@ -1,0 +1,43 @@
+// ONclick
+
+// document.getElementById("header3").onclick = helloFunction;
+// document.getElementById("header3").onclick = byeFunction;
+
+// document.getElementById("header3").onclick = function () {
+//   helloFunction();
+//   byeFunction();
+// };
+
+// function helloFunction() {
+//   console.log("hi!");
+//   console.log(this);
+// }
+
+// function byeFunction() {
+//   console.log("Bye!");
+//   console.log(this);
+// }
+//Проверяла, что будет, если использовать this без ухищрений
+
+// document.getElementById("header3").onclick = helloFunction;
+
+// function helloFunction() {
+//   console.log("h3");
+//   console.log(this);
+// }
+// ------ закончила проверку
+
+// EventListener;
+document.getElementById("header3").addEventListener("click", helloFunction);
+document.getElementById("header3").addEventListener("click", byeFunction);
+
+function helloFunction() {
+  console.log("hi!");
+  console.log((this.textContent = "hi again"));
+  console.log(this.getAttribute("id"));
+}
+
+function byeFunction() {
+  console.log("Bye!");
+  console.log(this);
+}

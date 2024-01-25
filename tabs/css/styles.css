@@ -1,0 +1,42 @@
+html, body{
+    margin: 50px;
+}
+
+.tabs{
+    width: 500px;
+    min-height: 200px;
+    background: #ececec;
+    margin: 0 auto;
+
+}
+
+.tabs-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-h{
+    border: 1px solid #000;
+    flex-grow: 1;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.tab-b{
+    display: none;
+}
+
+.tab-b.active{
+    display: block;
+}
+
+.tabs-body{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tab-h.active{
+    background-color: tomato;
+}

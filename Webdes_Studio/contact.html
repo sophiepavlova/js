@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webdes_Studio</title>
+    <!-- <link href="css/hamburgers.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="overlay"></div>
+    <div class="wrapper_contacts">
+      <div class="wrapper">
+        <header class="header">
+          <div class="container header__container">
+            <a href="index.html" class="logo"
+              >Web<span class="logo-accent">Studio</span>
+            </a>
+
+            <div class="all_nav">
+              <nav class="navigation">
+                <ul class="menu-list">
+                  <li class="nav__item">
+                    <a class="menu-link link" href="index.html">Студия</a>
+                  </li>
+
+                  <li class="nav__item">
+                    <a class="menu-link link" href="portfolio.html"
+                      >Портфолио</a
+                    >
+                  </li>
+
+                  <li class="nav__item">
+                    <a class="menu-link link current" href="contact.html"
+                      >Контакты</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="header__right">
+                <div class="header__contacts">
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="header__email iconnav_default"
+                  >
+                    <svg class="email__svg">
+                      <use href="./images/sprite.svg#nav_envelope"></use>
+                    </svg>
+                    info@devstudio.com</a
+                  >
+
+                  <a
+                    href="tel:+380961111111"
+                    class="header__phone-all iconnav_default"
+                  >
+                    <svg class="phone__svg">
+                      <use href="./images/sprite.svg#nav_smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11</a
+                  >
+                </div>
+
+                <ul class="nav-socials">
+                  <li class="nav-social">
+                    <a href="#" class="nav-link">Instagram</a>
+                  </li>
+                  <div class="line"></div>
+
+                  <li class="nav-social">
+                    <a href="#" class="nav-link">Twitter</a>
+                  </li>
+                  <div class="line"></div>
+
+                  <li class="nav-social">
+                    <a href="#" class="nav-link">Facebook</a>
+                  </li>
+                  <div class="line"></div>
+
+                  <li class="nav-social">
+                    <a href="#" class="nav-link">LinkedIn</a>
+                  </li>
+                  <div class="line"></div>
+                </ul>
+              </div>
+            </div>
+
+            <button class="burger" aria-label="Открыть меню">
+              <span></span>
+            </button>
+          </div>
+        </header>
+
+        <main class="main">
+          <div class="text_wrap">
+            <p class="contact-text">WebStudio</p>
+            <p class="contact-text-small">rules</p>
+          </div>
+        </main>
+
+        <footer class="footer">
+          <div class="footer__wrapper">
+            <div class="footer__column1">
+              <a href="" class="header__logo">
+                <img src="images/Logo_white.svg" />
+              </a>
+              <div class="footer__contacts">
+                <!-- <p class="footer_address">г. Киев, пр-т Леси Украинки, 26</p> -->
+                <a
+                  class="footer_address"
+                  href="https://goo.gl/maps/PxFiQBeU8eKm31QJ8"
+                >
+                  г. Киев, пр-т Леси Украинки, 26
+                </a>
+                <a href="" class="footer_email"> info@devstudio.com</a>
+                <a href="" class="footer_phone"> +38 099 111 11 11</a>
+              </div>
+            </div>
+            <div class="footer__column2">
+              <p class="footer__socialtext">присоединяйтесь</p>
+              <div class="footer__sociallinks">
+                <a
+                  href=""
+                  class="social-link__svg social-link-footer__svg icon-footer_color-default"
+                >
+                  <svg class="social__svg">
+                    <use href="./images/sprite.svg#social-bare_icon1"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href=""
+                  class="social-link__svg social-link-footer__svg icon-footer_color-default"
+                >
+                  <svg class="social__svg">
+                    <use href="./images/sprite.svg#social-bare_icon2"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href=""
+                  class="social-link__svg social-link-footer__svg icon-footer_color-default"
+                >
+                  <svg class="social__svg">
+                    <use href="./images/sprite.svg#social-bare_icon3"></use>
+                  </svg>
+                </a>
+
+                <a
+                  href=""
+                  class="social-link__svg social-link-footer__svg icon-footer_color-default"
+                >
+                  <svg class="social__svg">
+                    <use href="./images/sprite.svg#social-bare_icon4"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="footer__column3">
+              <p class="footer__socialtext">Подпишитесь на рассылку</p>
+
+              <form id="footer_subscribe_form" method="post" action="/">
+                <div class="submit_group">
+                  <input
+                    class="footer_mail"
+                    type="text"
+                    placeholder="E-mail"
+                    value=""
+                    name="footer_email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                    title="xxx@xxx.xxx"
+                  />
+                  <div class="button_wrap">
+                    <button
+                      class="button button_footer"
+                      type="submit"
+                      value="Подписаться"
+                      id="footer_subscribe_submit"
+                      name="footer_submit"
+                    >
+                      Подписаться
+                      <svg class="social__svg icon_footer_subscribe">
+                        <use href="./images/sprite.svg#icon_send"></use>
+                      </svg>
+                    </button>
+                  </div>
+
+                  <!-- <div class="button_wrap">
+                    <input
+                      class="button button_footer"
+                      type="submit"
+                      value="Подписаться"
+                      id="footer_subscribe_submit"
+                      name="footer_submit"
+                    />
+                    <svg class="social__svg icon_footer_subscribe">
+                      <use href="./images/sprite.svg#icon_send"></use>
+                    </svg>
+                  </div> -->
+                </div>
+              </form>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+  <script src="js/custom.js"></script>
+</html>

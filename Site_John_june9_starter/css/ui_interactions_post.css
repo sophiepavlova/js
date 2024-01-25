@@ -1,0 +1,15 @@
+.blog-card__link_back{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+.blog-card__back{
+    color:#FF6464;
+    padding-bottom: 48px;
+}
+.blog-card__tag:hover{
+    color:#FF6464;
+}
+/* .blog-card__text_gray:hover{
+	color: #FF6464;
+} */
